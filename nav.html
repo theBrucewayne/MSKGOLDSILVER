@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>9 Images with Hover and Black Background</title>
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		}
+		.image {
+			position: relative;
+			margin: 10px;
+			width:  50%;
+			height: 200px;
+			overflow: hidden;
+		}
+		.image img {
+			width: 50%;
+		}
+		.image:hover .overlay {
+			opacity: 1;
+		}
+		.overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+			opacity: 0;
+			transition: opacity 0.5s ease-in-out;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.overlay p {
+			color: #fff;
+			font-size: 18px;
+			text-align: center;
+		}
+		.container {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.image {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 90%;
+  height: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px;
+}
+
+.image1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="image">
+			<img src="C:\Users\LFDC\Desktop\BSC/852.png" alt="Image 1">
+			<div class="overlay">
+				<p> Gomedagam</p>
+			</div>
+	 </div>
+		<div class="image">
+			<img src="C:\Users\LFDC\Desktop\BSC/2.png">
+			<div class="overlay">
+				<p> Emerald</p>
+			</div>
+	</div>	
+		<div class="image">
+			<img src="C:\Users\LFDC\Desktop\BSC/3.png" alt="Image 3">
+			<div class="overlay">
+				<p> Diamond</p>
+			</div>
+	</div>	
+		<div class="image">
+			<img src="C:\Users\LFDC\Desktop\BSC/10.png">
+			<div class="overlay">
+				<p> Coral</p>
+			</div>
+	</div>	
+		<div class="image">
+			<img src="C:\Users\LFDC\Desktop\BSC/5.png" alt="Image 5">
+			<div class="overlay">
+				<p> Yellow sapphire</p>
+			</div>
+	</div>	
+		<div class="image">
+			<img src="C:\Users\LFDC\Desktop\BSC/11.png" alt="Image 6">
+			<div class="overlay">
+				<p>Ruby</p>
+			</div>
+	</div>
+		<div class="image">
+			<img src="C:\Users\LFDC\Desktop\BSC/7.png" alt="Image 7">
+			<div class="overlay">
+				<p>Cats eye</p>
+			</div>
+
+	</div>	
+		<div class="image">
+			<img src="C:\Users\LFDC\Desktop\BSC/8.png" alt="Image 8">
+			<div class="overlay">
+				<p>Blue Saphhire</p>
+			
+	</div>				</div>
+		<div class="image9">
+			<img src="C:\Users\LFDC\Desktop\BSC/545.png">
+			<div class="overlay">
+				<p>Pearl</p>
+			</div>
+               </div>                         
+</body>
+</html>
